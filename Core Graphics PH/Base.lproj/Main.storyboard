@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zuQ-cw-SqI">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="16" y="28" width="343" height="623"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gD-w0-hki">
                                 <rect key="frame" x="161.5" y="617" width="52" height="30"/>
@@ -30,12 +30,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Kia-Np-K1s" firstAttribute="trailing" secondItem="zuQ-cw-SqI" secondAttribute="trailing" id="3n4-l9-0gs"/>
-                            <constraint firstItem="Kia-Np-K1s" firstAttribute="bottom" secondItem="zuQ-cw-SqI" secondAttribute="bottom" id="Iyv-HQ-cfg"/>
+                            <constraint firstItem="zuQ-cw-SqI" firstAttribute="trailing" secondItem="Kia-Np-K1s" secondAttribute="trailing" constant="-16" id="Dor-zx-hZc"/>
+                            <constraint firstItem="zuQ-cw-SqI" firstAttribute="bottom" secondItem="Kia-Np-K1s" secondAttribute="bottom" constant="-16" id="Hma-Ki-d1t"/>
+                            <constraint firstItem="zuQ-cw-SqI" firstAttribute="leading" secondItem="Kia-Np-K1s" secondAttribute="leading" constant="16" id="K0B-xL-GWg"/>
+                            <constraint firstItem="zuQ-cw-SqI" firstAttribute="top" secondItem="Kia-Np-K1s" secondAttribute="top" constant="8" id="Q3u-eo-7RY"/>
                             <constraint firstItem="Kia-Np-K1s" firstAttribute="bottom" secondItem="4gD-w0-hki" secondAttribute="bottom" constant="20" id="at3-2F-Jxh"/>
                             <constraint firstItem="4gD-w0-hki" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ejx-4o-KAa"/>
-                            <constraint firstItem="zuQ-cw-SqI" firstAttribute="leading" secondItem="Kia-Np-K1s" secondAttribute="leading" id="i8v-F0-pYe"/>
-                            <constraint firstItem="zuQ-cw-SqI" firstAttribute="top" secondItem="Kia-Np-K1s" secondAttribute="top" id="oUL-EE-E6Z"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Kia-Np-K1s"/>
                     </view>

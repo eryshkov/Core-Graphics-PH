@@ -22,6 +22,13 @@
 		5C626D1C21D60C8000E2A042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C626D1F21D60C8000E2A042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C626D2121D60C8000E2A042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C626D2721D64CB100E2A042 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C626D2921D64F3F00E2A042 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		5C626D2A21D64F4000E2A042 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		5C626D2B21D64F4000E2A042 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		5C626D2C21D64F4000E2A042 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		5C626D2D21D64F4000E2A042 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		5C626D2E21D64F4000E2A042 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +45,8 @@
 		5C626D0921D60C7F00E2A042 = {
 			isa = PBXGroup;
 			children = (
+				5C626D2821D64CBA00E2A042 /* screens */,
+				5C626D2721D64CB100E2A042 /* README.md */,
 				5C626D1421D60C7F00E2A042 /* Core Graphics PH */,
 				5C626D1321D60C7F00E2A042 /* Products */,
 			);
@@ -62,6 +71,19 @@
 				5C626D2121D60C8000E2A042 /* Info.plist */,
 			);
 			path = "Core Graphics PH";
+			sourceTree = "<group>";
+		};
+		5C626D2821D64CBA00E2A042 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5C626D2E21D64F4000E2A042 /* 1.jpeg */,
+				5C626D2B21D64F4000E2A042 /* 2.jpeg */,
+				5C626D2D21D64F4000E2A042 /* 3.jpeg */,
+				5C626D2921D64F3F00E2A042 /* 4.jpeg */,
+				5C626D2A21D64F4000E2A042 /* 5.jpeg */,
+				5C626D2C21D64F4000E2A042 /* 6.jpeg */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
